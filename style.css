@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    margin-left: 630px;
+    color: #98fb98;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+   }
+
+
+   
+   body{
+    margin: 0px;
+    background: black;
+    color: #F5F5F5
+  }
+   
+  .header{
+    background-color: coral;  
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+ .grid{
+  margin:10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+}
+
+.Chameleon{
+  color:#ADFF2F;
+  position: relative;
+}
+
+.Pigeons{
+  color: #00CED1;
+  position: relative;
+}
+
+.Cicada{
+  color:#FFE4C4 ;
+  position: relative;
+}
+
+.Camel{
+  color:#FFD700 ;
+  position: relative;
+}
+
+a:link {
+  color: orange;
+}
+a:visited {
+  color: royalblue;
+}
+
+.grid p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+
+.grid:hover p {
+  opacity: 1;
+  font-size: 30px;
+  font-weight: bolder;
+  color: tomato;
+}
+
+.item:hover img{
+  opacity: 0.33;
+}
+
+.item:hover {
+  transform: scale(1.5);
+}
+
+.menu{
+  margin-right: 20px;
+  padding: 30px;
+}
+
+.menu a{
+  padding: 20px;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.footer p{
+  font-size: 35px;
+  text-decoration: none;
+}
